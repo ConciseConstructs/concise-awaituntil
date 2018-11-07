@@ -1,4 +1,4 @@
-# concise-asyncawaituntil
+# concise-awaituntil
 Adds ".catch()" exception handling behavior to Javascript's Async/Await while avoiding Try/Catch blocks and Promise catch blocks.
 
 ## Background
