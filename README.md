@@ -61,7 +61,7 @@ async function doWhatever() {
 }
 ```
 
-I believe the heart behind Javascript's Async/Await was to avoid promise-like code in the first place.  So I concise-awaituntil to allow exception handling while keep the code as clean as possible.  Here is an example:
+I believe the heart behind Javascript's Async/Await was to avoid promise-like code in the first place.  So concise-awaituntil allows exception handling while keep the code as clean as possible.  Here is an example:
 
 ```
 const until = require('concise-asyncawaituntil')
@@ -79,7 +79,7 @@ The until function will always return a two item array.  Which can be deconstruc
   const [ outcome, failure ] = await until(somethingAsync())
 ```
 
-Item one (index 0) will always be the outcome (promise resolved data).  Item two (index 1) will always be either an exception or promise rejection.  One of these two items in the array will always be truthy, the other will always be falsy (null to be exact).  If outcome is truthy, failure will always be falsy and vice versa.  Therefore **until** is easily testable and can call the correct handler of the outcome.  While the Async/Await code block is able to catch exceptions while being clean and concise also avoiding Try/Catch blcoks or ".then()" and ".catch()" promise syntax.
+Item one (index 0) will always be the outcome (promise resolved data).  Item two (index 1) will always be either an exception or promise rejection.  One of these two items in the array will always be truthy, the other will always be falsy (null to be exact).  If outcome is truthy, failure will always be falsy and vice versa.  Therefore the function **until** is easily testable and you can call the correct handler of the outcome.  This Async/Await code block is now able to catch exceptions while being clean and concise.  At the same time also avoiding Try/Catch blcoks or ".then()" and ".catch()" promise syntax.
 
 
 
