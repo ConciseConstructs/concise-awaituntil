@@ -1,0 +1,28 @@
+{
+  "name": "concise-awaituntil",
+  "version": "1.0.0",
+  "description": "Adds .catch() exception handling behavior to Javascripts Async / Await while avoiding Try / Catch blocks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConciseConstructs/concise-awaituntil.git"
+  },
+  "keywords": [
+    "javascript",
+    "async",
+    "await",
+    "asyncronous",
+    "js",
+    "node",
+    "nodejs"
+  ],
+  "author": "Concise Constructs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConciseConstructs/concise-awaituntil/issues"
+  },
+  "homepage": "https://github.com/ConciseConstructs/concise-awaituntil#readme"
+}
