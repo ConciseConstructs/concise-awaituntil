@@ -21,6 +21,7 @@ async function doWhatever() {
 ```
 
 
+
 ### Background
 Javascript's **Await** operator makes asynchronous functions cleaner and easier to reason about because they are wrote like and resemble syncronous code.  It is an upgrade (in my opinion) from promise based asynchronous handling which employs ".then()" and ".catch()" calls.
 
@@ -57,6 +58,8 @@ async function doWhatever() {
 
 I believe the heart behind Javascript's Async/Await was to avoid promise-like code in the first place.  So concise-awaituntil allows exception handling while keeping the code as clean as possible.  Here is an example:
 
+
+### Solution
 ```
 const until = require('concise-awaituntil')
 
